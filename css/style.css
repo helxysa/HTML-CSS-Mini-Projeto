@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@900&family=Outfit:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*Isso serve para que vá o valor que eu quero seja usada msm*/
+  font-family: 'JetBrains Mono', monospace;
+}
+
+nav {
+  text-decoration: none;
+  display: flex;
+  padding: 20px;
+  margin: 3px;
+  border-radius: 13px;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px grey;
+  background-color: grey;
+}
+nav h1 {
+  background-color: grey;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: grey;
+  
+}
+ul li {
+  
+  margin: 5px;
+  background-color: grey;
+  
+}
+
+.conteiner {
+  background-color: #eee;
+  min-height: 83vh; /*Isso aqui serve pra mostrar a altura minima que o conteiner vai ocupar*/
+  padding: 50px;
+}
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto; /* centralizando conteudo na lateral é automatico pra centralizar, e o 0 pra cima e pra baixo  */
+}
+.card{
+  width: 31%; /* vai fazer que ele ocupe 31% da tela */
+  display: inline-block; /*vai fazer que o display em inline-block eles
+  fiquem um do lado do outro*/
+  margin: 1;
+  padding: 15px;
+  
+}
+
+.product-image{
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover; /*Ele tenta mostrar maior parte da imagem dentro do parametro que foi dado*/
+}
+
+#img-1{
+  background-image: url("../src/img/1023030_29295_3_112_MRHPTR_1.jpg");
+}
+#img-2{
+  background-image: url("../src/img/1023075_29328_3_3026572_600_1.jpg");
+}
+#img-3{
+  background-image: url("../src/img/1024736_30107_3_158_PTO_CH_1.jpg");
+}
+#img-4{
+  background-image: url("../src/img/1024767_30221_3_157_PTO_CH_1.jpg");
+}
+#img-5{
+  background-image: url("../src/img/ML373_ML373NB2_00.jpg");
+}
+
+#img-6{
+  background-image: url("../src/img/MTGAROV1_MTGAROLY_00.jpg");
+
+}
+.card h3{
+  border-left: solid 2px black;
+  padding: 3px 5px;
+}
+
+.card p{
+  margin-bottom: 10px;
+}
+.bold{
+  font-weight: bold;
+}
+.card a{
+  text-decoration: none;
+  background-color:#778899;
+  border-radius: 15px;
+  padding: 10px 1px;  /*altura e largura*/
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  transition: 0.5s;
+}
+.card a:hover{
+  background-color: #B0C4DE;
+}
+
+
+
+footer {
+  /* bottom: 0;  esse bottom, left, right, deixa o footer no final da tela absolutamente 
+  left: 0;
+  right: 0; */
+  padding: 80px;
+ 
+  color: antiquewhite;
+  border: solid 1px grey;
+  text-align: center;
+ 
+  background-color: black;
+}
