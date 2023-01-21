@@ -7,4 +7,4 @@
 </li>
 <ul>
 <h2>Preview</h2>
- <a href="https://helxysa.github.io/HTML-CSS-Mini-Projeto/" target="_blank" >Linkr</a>
+ <a href="https://helxysa.github.io/HTML-CSS-Mini-Projeto/" target="_blank" >Link</a>
